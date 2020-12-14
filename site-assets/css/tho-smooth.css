@@ -13,7 +13,6 @@
 }
 
 .site-content {
-    padding-top: 4rem;
     flex-grow: 1;
 }
 
@@ -41,6 +40,51 @@
     color: #000;
 }
 
+/* Posts */
+
+.post  {
+
+}
+
+.post-title {
+    color: #000;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.post-meta-date::before {
+    content: "\02022";
+    margin: 0rem 1rem;
+}
+
+.post-meta-date {
+
+}
+
+.post-meta-author {
+    
+}
+
+.post-content {
+
+}
+
 /* formatting */
 
 html {
@@ -61,4 +105,10 @@ h6 {
 
 h1 {
     font-size: 1.5rem;
+}
+
+body {
+    color: #333;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
 }

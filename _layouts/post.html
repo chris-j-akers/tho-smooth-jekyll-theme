@@ -1,4 +1,19 @@
 ---
 layout: default
 ---
-{{ content }}
+<div class="post">
+    <div class="post-title">
+        {{ page.title }}
+    </div>
+    <div class="post-meta">
+        <div class="post-meta-author">
+            {{ page.author }}
+        </div>
+        <div class="post-meta-date">
+            {{ page.date | date_to_string }}
+        </div>
+    </div>
+    <div class="post-content">
+        {{ content }}
+    </div>
+</div>

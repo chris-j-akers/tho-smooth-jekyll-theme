@@ -2,7 +2,7 @@
 layout: post
 title: "experimenting with merkle trees: the root hash of english"
 description: "Building a merkle tree out of all the words in English get a root hash of the English Language"
-author: cakers
+author: Chris Akers
 draft: true
 published: true
 ---
