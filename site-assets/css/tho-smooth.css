@@ -1,0 +1,64 @@
+/* Global Container */
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Site Container */
+
+.site {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-content {
+    padding-top: 4rem;
+    flex-grow: 1;
+}
+
+/* Site Header */
+
+.site-header {
+    display: flex;
+    height: 10rem;
+    flex-direction: column;
+    backface-visibility: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-header-logo {
+    display: flex;
+}
+
+.site-header-navbar {
+    font-size: 2rem;
+}
+
+.site-header-navbar-item {
+    padding: 0rem 1rem;
+    color: #000;
+}
+
+/* formatting */
+
+html {
+    font-size: 16px;
+    font-family: Muli;
+    line-height: 1.65rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
