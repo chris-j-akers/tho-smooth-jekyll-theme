@@ -19,6 +19,8 @@
 /* Site Header */
 
 .site-header {
+    /* border-color: green;
+    border-style: solid; */
     display: flex;
     height: 10rem;
     flex-direction: column;
@@ -27,16 +29,66 @@
     justify-content: center;
 }
 
-.site-header-logo {
+.site-title {
+    /* border-color: yellow;
+    border-style: solid; */
+    width: 100%;
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.site-header-navbar {
+.site-title-logo {
+    flex-grow: 1;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.site-title-left {
+    margin-left: 2%;
+}
+
+.hamburger-menu {
+    /* border-color: pink;
+    border-style: solid; */
     font-size: 2rem;
 }
 
+.site-title-right {
+    margin-right: 2%;
+}
+
+.dark-mode-toggle {
+    font-size: 2rem;
+}
+
+.site-header-navbar {
+    /* border-color: red;
+    border-style: solid; */
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
 .site-header-navbar-item {
-    padding: 0rem 1rem;
+    /* border-color: purple;
+    border-style: solid; */
+    padding: 0rem 1rem 0rem 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.dark-mode .fa-icon-style  {
+    color: #ccc;
+}
+
+.fa-icon-style {
     color: #000;
 }
 
@@ -53,6 +105,11 @@
     line-height: 2.5rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
+}
+
+.dark-mode .post-title {
+    background-color: #282c35;
+    color: #ccc;
 }
 
 .post-meta {
@@ -93,6 +150,17 @@ html {
     line-height: 1.65rem;
 }
 
+body {
+    color: #333;
+    word-break: break-word;
+    text-rendering: optimizeLegibility;
+}
+
+.dark-mode {
+    background-color: #282c35;
+    color: #ccc;
+}
+
 h1,
 h2,
 h3,
@@ -104,11 +172,38 @@ h6 {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
-body {
-    color: #333;
-    word-break: break-word;
-    text-rendering: optimizeLegibility;
+.dark-mode h1, 
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6
+{
+    background-color: #282c35;
+    color: #ccc;
 }
+
+button {
+    background: transparent;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.2s linear 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.dark-mode button {
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    color: #ccc;
+} 
+
+
+
