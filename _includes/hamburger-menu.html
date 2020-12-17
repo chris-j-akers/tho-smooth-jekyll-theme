@@ -1,0 +1,16 @@
+<div id="hamburger-menu" class="hamburger-menu">
+  <div class="close-button">
+    <a href="javascript:void(0)" class="fa-hamburger-close-button-style" onclick="close_hamburger_menu()"><i class="fas fa-window-close"></i></a>
+  </div>
+  <a class="side-panel-site-contents-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}{{ site.baseurl }}">home</a>
+  <br>
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == "page" %}
+        <a class="side-panel-site-contents-item{% if page.url == node.url %} active{% endif %}" href="{{ site.url }}{{ node.url }}">{{ node.title | downcase }}</a>
+        <br>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>

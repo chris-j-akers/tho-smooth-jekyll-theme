@@ -16,11 +16,9 @@
     flex-grow: 1;
 }
 
-/* Site Header */
+/* site header */
 
 .site-header {
-    /* border-color: green;
-    border-style: solid; */
     display: flex;
     height: 10rem;
     flex-direction: column;
@@ -29,9 +27,9 @@
     justify-content: center;
 }
 
+/* site header title */
+
 .site-title {
-    /* border-color: yellow;
-    border-style: solid; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -49,23 +47,11 @@
     margin-left: 2%;
 }
 
-.hamburger-menu {
-    /* border-color: pink;
-    border-style: solid; */
-    font-size: 2rem;
-}
-
 .site-title-right {
     margin-right: 2%;
 }
 
-.dark-mode-toggle {
-    font-size: 2rem;
-}
-
 .site-header-navbar {
-    /* border-color: red;
-    border-style: solid; */
     width: 100%;
     margin-left: 2%;
     margin-right: 2%;
@@ -76,20 +62,18 @@
 }
 
 .site-header-navbar-item {
-    /* border-color: purple;
-    border-style: solid; */
     padding: 0rem 1rem 0rem 1rem;
     font-size: 2.5rem;
     font-weight: 700;
     color: #000;
 }
 
-.dark-mode .fa-icon-style  {
-    color: #ccc;
+.fa-contact-icon-style  {
+    color: #282c35;
 }
 
-.fa-icon-style {
-    color: #000;
+.dark-mode .fa-contact-icon-style  {
+    color: #ccc;
 }
 
 /* Posts */
@@ -188,41 +172,62 @@ h1 {
 
 button {
     background: transparent;
+    outline: none;
+    border: none;
+}
+
+.dark-mode-toggle-button-style {
+    font-size: 2rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border: 2px solid #ccc;
     border-radius: 5px;
     transition: all 0.2s linear 0s;
     cursor: pointer;
-    outline: none;
 }
 
-.dark-mode button {
+.dark-mode .dark-mode-toggle-button-style {
     border-right: 2px solid #000;
     border-bottom: 2px solid #000;
     border-top: 2px solid #ccc;
     border-left: 2px solid #ccc;
     color: #ccc;
-} 
-
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
+.hamburger-menu-button-style {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.dark-mode .hamburger-menu-button-style {
+    color: #ccc;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #ccc;
+    overflow-x: hidden; 
+    padding-top: 5rem; /* Place content 60px from the top */
+    transition: 0.5s;
+}
+
+.hamburger-menu .close-button {
+    padding: 0.5rem;
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
+    cursor: pointer;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.fa-hamburger-close-button-style {
+    color: #282c35;
+}
+
