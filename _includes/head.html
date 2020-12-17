@@ -13,16 +13,29 @@
     <script src="https://kit.fontawesome.com/f7cb9930a5.js" crossorigin="anonymous"></script>
 
     <script>
+        function set_dark_mode() {
+            var element = document.body;
+            var dark_mode = window.sessionStorage["dark-mode"];
+            if (dark_mode == null || dark_mode == "true") {
+                window.sessionStorage["dark-mode"] = "true";
+                element.classList.add("dark-mode");
+            }
+        }
         function toggle_dark_mode() {
             var element = document.body;
-            element.classList.toggle("dark-mode");
+            if (window.sessionStorage["dark-mode"] == "true") {
+                element.classList.remove("dark-mode");
+                window.sessionStorage["dark-mode"] = "false";
+            }
+            else {
+                element.classList.add("dark-mode");
+                window.sessionStorage["dark-mode"] = "true";
+            }
         }
-
         /* Set the width of the side navigation to 250px */
         function open_hamburger_menu() {
             document.getElementById("hamburger-menu").style.width = "15rem";
         }
-
         /* Set the width of the side navigation to 0 */
         function close_hamburger_menu() {
             document.getElementById("hamburger-menu").style.width = "0";
