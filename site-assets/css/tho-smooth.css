@@ -203,22 +203,21 @@ button {
     color: #ccc;
 }
 
-.hamburger-menu {
+.hamburger-menu-frame {
+    width: 0; /* <- Set by JavaScript when the button is pushed */
+    transition: width 0.5s;
+    height: 100%;
+    position: fixed; 
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 0; 
-    position: fixed; 
     z-index: 1; 
     top: 0; 
     left: 0;
     background-color: #ccc;
     overflow-x: hidden; 
-    padding-top: 5rem; /* Place content 60px from the top */
-    transition: 0.5s;
 }
 
-.hamburger-menu .close-button {
+.hamburger-menu-frame .close-button {
     padding: 0.5rem;
     position: absolute;
     cursor: pointer;
@@ -231,3 +230,21 @@ button {
     color: #282c35;
 }
 
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    word-break: keep-all;
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+.hamburger-menu-item {
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #282c35;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    font-weight: bold;
+}
