@@ -1,13 +1,19 @@
+
+.highlight {
+  border: none;
+  font-family: Inconsolata;
+  font-weight: bold;
+  line-height: 1.4;
+  overflow-x: auto;
+  scroll-padding-top: 5rem;
+}
+
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 
 /* Tomorrow Night syntax theme originally by Chris Kempson */
-
+.dark-mode .lineno { color: #777; }
 .dark-mode pre { line-height: 125%; margin: 0; }
-/* .dark-mode td.linenos pre { color: #282c35; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-.dark-mode td.linenos pre.special { color: #282c35; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
-.dark-mode span.linenos { color: #282c35; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-.dark-mode span.linenos.special { color: #282c35; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; } */
 .dark-mode .highlight .hll { background-color: #373b41 }
 .dark-mode .highlight { background: #282c35; color: #c5c8c6 }
 .dark-mode .highlight .c { color: #969896 } /* Comment */
@@ -69,11 +75,7 @@
 .dark-mode .highlight .p, .dark-mode .highlight .pi, .dark-mode .highlight .o, .dark-mode .highlight .ow { color: #c5c8c6 }
 
 /* Light mode syntax based on Rougify magritte theme */
-
-.highlight .gl {
-  color: #f3ffff;
-  background-color: #282c35;
-}
+.lineno { color: #aaa; }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
   color: #006c6c;
   font-style: italic;
