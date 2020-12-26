@@ -11,9 +11,18 @@
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 
+pre { line-height: 125%; 
+      margin: 0; 
+}
+
+/* Inline */
+.dark-mode code {
+  color: #81a2be;
+  font-weight: 700;
+}
+
 /* Tomorrow Night syntax theme originally by Chris Kempson */
 .dark-mode .lineno { color: #777; }
-.dark-mode pre { line-height: 125%; margin: 0; }
 .dark-mode .highlight .hll { background-color: #373b41 }
 .dark-mode .highlight { background: #282c35; color: #c5c8c6 }
 .dark-mode .highlight .c { color: #969896 } /* Comment */
@@ -75,7 +84,15 @@
 .dark-mode .highlight .p, .dark-mode .highlight .pi, .dark-mode .highlight .o, .dark-mode .highlight .ow { color: #c5c8c6 }
 
 /* Light mode syntax based on Rougify magritte theme */
+
+/* Inline */
+code {
+  color: #ff0089;
+  font-weight: 700;
+}
+
 .lineno { color: #aaa; }
+
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
   color: #006c6c;
   font-style: italic;

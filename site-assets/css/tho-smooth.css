@@ -43,14 +43,6 @@
     text-align: center;
 }
 
-.site-title-left {
-    margin-left: 2%;
-}
-
-.site-title-right {
-    margin-right: 2%;
-}
-
 .site-header-navbar {
     width: 100%;
     margin-left: 2%;
@@ -181,6 +173,7 @@ button {
 .hamburger-menu-button-style {
     cursor: pointer;
     font-size: 2rem;
+    padding: 0rem;
 }
 
 .dark-mode .hamburger-menu-button-style {
@@ -231,4 +224,38 @@ button {
 a:hover, a:focus {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.index-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-panel-item {
+    margin-bottom: 1.5rem;
+}
+
+.index-panel-item-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+.index-panel-item-meta {
+    font-size: 0.80rem;
+    color: #aaa;
+    font-weight: 700;
+}
+
+.index-panel-item-snippet {
+    color: #333;
+}
+
+.dark-mode .index-panel-item-snippet {
+    color: #ccc;
+}
+
+.index-panel a {
+    text-decoration: underline;
+    color: unset;
 }
