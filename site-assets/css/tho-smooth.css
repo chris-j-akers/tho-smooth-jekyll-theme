@@ -4,6 +4,14 @@
     margin-right: 5%;
 }
 
+@media (min-width: 768px) {
+    .container {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* Site Container */
 
 .site {
