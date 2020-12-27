@@ -143,6 +143,11 @@ h1 {
     font-size: 2rem;
 }
 
+a {
+    text-decoration: underline;
+    color: unset;
+}
+
 .dark-mode h1, 
 .dark-mode h2,
 .dark-mode h3,
@@ -263,29 +268,24 @@ a:hover, a:focus {
     color: #ccc;
 }
 
-.index-panel a {
-    text-decoration: underline;
-    color: unset;
-}
-
 /* Scroll Bar */
 ::-webkit-scrollbar {
     height: 0.5rem;
 }
   
 .dark-mode ::-webkit-scrollbar-track {
-    background: #444;
-}
-
-.dark-mode ::-webkit-scrollbar-thumb {
     background: #555;
 }
 
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #444;
+}
+
 ::-webkit-scrollbar-track {
-    background: #888;
+    background: #aaa;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #aaa;
+    background: #888;
 }
 
