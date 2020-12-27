@@ -267,3 +267,25 @@ a:hover, a:focus {
     text-decoration: underline;
     color: unset;
 }
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    height: 0.5rem;
+}
+  
+.dark-mode ::-webkit-scrollbar-track {
+    background: #444;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+::-webkit-scrollbar-track {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+}
+
