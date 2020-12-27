@@ -1,5 +1,7 @@
 /* Global Container */
 .container {
+    z-index: 0;
+    position: relative;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -197,10 +199,10 @@ button {
     width: 0; /* <- Set by JavaScript when the button is pushed */
     transition: width 0.5s;
     height: 100%;
-    position: fixed; 
+    position: absolute; 
     display: flex;
     flex-direction: column;
-    z-index: 1; 
+    z-index: 100; 
     top: 0; 
     left: 0;
     background-color: #ccc;
