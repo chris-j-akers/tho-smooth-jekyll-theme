@@ -5,7 +5,7 @@
 layout: default
 ---
 <div class="index-panel">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
         {% if post.draft == true %}
         <div class="index-panel-item" id="index-panel-item">
               <a class="index-panel-item-title" href="{{ post.url }}">{{ post.title }}</a>
