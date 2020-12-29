@@ -1,6 +1,6 @@
 title: Tho Smooth
 email: your-email@example.com
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://cakers.io/"
 linked_in_url: https://www.linkedin.com/in/chris-akers-1403114
 email_address: chris.j.akers@gmail.com
