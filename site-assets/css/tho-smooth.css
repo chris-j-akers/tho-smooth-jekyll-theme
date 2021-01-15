@@ -1,4 +1,5 @@
 /* Global Container */
+
 .container {
     z-index: 0;
     position: relative;
@@ -112,60 +113,15 @@
     margin: 0rem 1rem;
 }
 
-/* formatting */
-
-html {
-    font-size: 16px;
-    font-family: Muli;
-    line-height: 1.65rem;
-}
-
-body {
-    color: #333;
-    word-break: break-word;
-    text-rendering: optimizeLegibility;
-}
-
-.dark-mode {
-    background-color: #282c35;
-    color: #ccc;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #1a1a1a;
-  font-weight: 700;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-a {
-    text-decoration: underline;
-    color: unset;
-}
-
-.dark-mode h1, 
-.dark-mode h2,
-.dark-mode h3,
-.dark-mode h4,
-.dark-mode h5,
-.dark-mode h6
-{
-    background-color: #282c35;
-    color: #ccc;
-}
+/* general button */
 
 button {
     background: transparent;
     outline: none;
     border: none;
 }
+
+/* light mode/dark mode button */
 
 .dark-mode-toggle-button-style {
     font-size: 2rem;
@@ -184,6 +140,8 @@ button {
     border-left: 2px solid #ccc;
     color: #ccc;
 }
+
+/* hamburger menu button */
 
 .hamburger-menu-button-style {
     cursor: pointer;
@@ -236,10 +194,7 @@ button {
     color: #282c35;
 }
 
-a:hover, a:focus {
-    text-decoration: underline;
-    font-weight: bold;
-}
+/* index items (front page)*/
 
 .index-panel {
     display: flex;
@@ -271,6 +226,7 @@ a:hover, a:focus {
 }
 
 /* Scroll Bar */
+
 ::-webkit-scrollbar {
     height: 0.5rem;
 }
@@ -291,3 +247,62 @@ a:hover, a:focus {
     background: #888;
 }
 
+/* general html formatting */
+
+html {
+    font-size: 16px;
+    font-family: Muli;
+    line-height: 1.65rem;
+}
+
+body {
+    color: #333;
+    text-rendering: optimizeLegibility;
+}
+
+.dark-mode {
+    background-color: #282c35;
+    color: #ccc;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.dark-mode h1, 
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6
+{
+    background-color: #282c35;
+    color: #ccc;
+}
+
+a {
+    text-decoration: underline;
+    color: unset;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    font-weight: bold;
+}
