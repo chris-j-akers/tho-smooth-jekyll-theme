@@ -25,8 +25,3 @@ Hamburger menu is populated automatically by scanning for pages in the root dir 
 
 ![](site-assets/images/tho-smooth-menu.png)
 
-## To Change the Look and Feel
-
-Main CSS is in /site-assets/css/tho-smooth.css.
-
-Code CSS is in /site-assets/css/syntax.css.
