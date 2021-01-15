@@ -3,7 +3,7 @@ by Chris Akers
 
 ## Introduction
 
-ThoSmooth is a simple jekyll theme with both light and dark modes.
+ThoSmooth is a simple jekyll theme with light and dark modes, and a hamburger-style pop-out navigation menu.
 
 To take a look, just clone the repo and run `jekyll serve`.
 
@@ -21,7 +21,7 @@ Dark Mode code blocks are based on the Tomorrow Night syntax theme, originally b
 
 ### Hamburger Menu
 
-Hamburger menu is populated automatically by scanning for pages in the root dir of the site. 
+Hamburger menu populats automatically by scanning for pages in the root dir of your Jekyll site. 
 
 ![](site-assets/images/tho-smooth-menu.png)
 
