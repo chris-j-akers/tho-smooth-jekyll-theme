@@ -9,6 +9,8 @@ To take a look, just clone the repo and run `jekyll serve`.
 
 ### Index Page
 
+NOTE: No pagination on index pages, yet.
+
 ![](site-assets/images/tho-smooth-index.png)
 
 ### Posts

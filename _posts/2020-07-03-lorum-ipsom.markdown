@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lorem Ipsum Dolor"
+title: "Lorem Ipsum Dolor Sit Amet"
 description: "Integer gravida lorem rutrum nisi pretium gravida et at ante"
 author: Joe Bloggs
 draft: true
