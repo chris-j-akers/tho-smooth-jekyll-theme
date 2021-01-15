@@ -21,7 +21,7 @@ Dark Mode code blocks are based on the Tomorrow Night syntax theme, originally b
 
 ### Hamburger Menu
 
-Hamburger menu populats automatically by scanning for pages in the root dir of your Jekyll site. 
+Hamburger menu populates automatically by scanning for pages in the root dir of your Jekyll site. 
 
 ![](site-assets/images/tho-smooth-menu.png)
 
