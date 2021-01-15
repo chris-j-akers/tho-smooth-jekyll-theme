@@ -3,7 +3,7 @@ by Chris Akers
 
 ## Introduction
 
-ThoSmooth is a simple jekyll theme with light and dark modes, and a hamburger-style pop-out navigation menu.
+ThoSmooth is a simple jekyll theme with light and dark modes, and a hamburger-style pop-out navigation menu. It was created specifically for https://cakers.io.
 
 To take a look, just clone the repo and run `jekyll serve`.
 
