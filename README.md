@@ -1,27 +1,39 @@
 # ThoSmooth Jekyll Theme
-by Chris Akers
 
+---
+- [Introduction](#introduction)
+- [Building](#building)
+- [Example Pages](#example-pages)
+  - [Index Page](#index-page)
+  - [Post Page](#post-page)
+  - [Pop-up Hamburger Menu](#pop-up-hamburger-menu)
+
+---
 ## Introduction
 
-ThoSmooth is a simple jekyll theme with light and dark modes, and a hamburger-style pop-out navigation menu. It was created specifically for https://cakers.io.
+ThoSmooth is a simple jekyll theme with light and dark modes, and a hamburger-style pop-out navigation menu.
 
-To take a look, just clone the repo and run `jekyll serve`.
+## Building
+
+The theme can be viewed by cloning this repo and using `jekyll serve`.
+
+## Example Pages
 
 ### Index Page
 
-NOTE: No pagination on index pages, yet.
+NOTE: No pagination on index pages, just vertical scroll.
 
 ![](site-assets/images/tho-smooth-index.png)
 
-### Posts
+### Post Page
 
-Dark Mode code blocks are based on the Tomorrow Night syntax theme, originally by Chris Kempson, and Light Mode code blocks are based on the Rougify Magritte theme.
+Dark Mode code blocks are based on Chris Kempson's 'Tomorrow Night' theme. Light Mode code blocks are based on the Rougify 'Magritte' theme.
 
 ![](site-assets/images/tho-smooth-post.png)
 
-### Hamburger Menu
+### Pop-up Hamburger Menu
 
-Hamburger menu populates automatically by scanning for pages in the root dir of your Jekyll site. 
+Hamburger menu populates automatically by scanning for markdown pages (documents ending in `.md`) in the root directory of the Jekyll site. 
 
 ![](site-assets/images/tho-smooth-menu.png)
 
